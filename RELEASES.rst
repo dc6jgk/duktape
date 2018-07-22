@@ -3386,6 +3386,14 @@ Planned
   https://github.com/svaarala/duktape/blob/master/misc/clang_aliasing.c),
   and the workaround is to use unpacked duk_tval prior to Clang 5.0 (GH-1764)
 
+2.4.0 (XXXX-XX-XX)
+------------------
+
+* Allow a Proxy object to have a Proxy as its target (i.e. Proxy chains)
+  (GH-1947)
+
+* Allow a Proxy handler object to be a Proxy (GH-1947)
+
 3.0.0 (XXXX-XX-XX)
 ------------------
 
